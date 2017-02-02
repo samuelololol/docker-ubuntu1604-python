@@ -1,4 +1,4 @@
-FROM docker-ubuntu1604
+FROM samuelololol/docker-ubuntu1604
 MAINTAINER samuelololol <samuelololol@gmail.com>
 USER root
 RUN apt-get -y update &&\
