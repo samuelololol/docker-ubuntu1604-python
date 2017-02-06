@@ -7,3 +7,7 @@ RUN apt-get -y update &&\
     apt-get autoremove -y &&\
     apt-get clean &&\
     rm -rf /var/lib/apt-lists/*
+
+# apt-get install -y build-essential
+# apt-get install -y software-properties-common
+# apt-get install -y curl git unzip vim wget
